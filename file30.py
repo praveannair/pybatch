@@ -28,8 +28,20 @@
 
 
 
-def add(a=0,b=0):
-    print(a+b)
+# def add(a=0,b=0):
+#     print(a+b)
 
-# add(4,2)
-add(6,7)
+# # add(4,2)
+# add(6,7)
+
+# def add(*args):
+#     print(args[0])
+
+# add(4,5,6,7,8,9)
+
+
+def add(**kwargs):
+    for i,j in kwargs.items():
+        print(i,j)
+
+add(a=4,b=6,c=1,d=5,r=4,q=2)
