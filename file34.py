@@ -1,14 +1,14 @@
 customer = [{
-    name:"John",
-    card:"123456789",
-    pin:"1234",
-    balance:5000
+    "name":"John",
+    "card":"565656577",
+    "pin":1234,
+    "balance":5000
 },
 {
-    name:"Cathy",
-    card:"1235656789",
-    pin:"3434",
-    balance:5000
+"name":"Cathy",
+    "card":"123346789",
+    "pin":1234,
+    "balance":5000
 }
 ]
 
