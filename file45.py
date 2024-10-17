@@ -16,7 +16,7 @@
 # mylist = ["apple", "banana", "cherry"]
 # fruit = r.choice(mylist)
 # print(fruit)
-# # print(r.choice(mylist))
+# print(r.choice(mylist))
 
 import random as r
 print("** Math Quiz ***")
