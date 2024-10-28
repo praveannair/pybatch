@@ -39,10 +39,27 @@
         
 import re
 #[A-Z], [0-9], \.
-str = 'john@gmail.com'
-pattern ='[a-z]'
-email = re.search(pattern, str)
-if email:
-    print("Valid Email")
-else:
-    print("Invalid Email")
+# str = 'fdsfsf'
+# pattern ='\s'
+# email = re.search(pattern, str)
+# if email:
+#     print("Valid Email")
+# else:
+#     print("Invalid Email")
+
+# import re  
+# str = "xyz@gmail.com"
+# print(re.sub("gmail", "ymail", str))
+
+
+# import re
+# s = 'john@@gma@il.com'
+# pattern = '@'
+# l = re.split(pattern, s)
+# print(l)
+
+
+import re
+txt = "Hello World"
+x = re.findall("o", txt)
+print(x)
