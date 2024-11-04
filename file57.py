@@ -24,9 +24,13 @@ print(total)
 # list1 = [i if i % 2 == 0 else 0 for i in range(1, 11)]
 # print(list1)
 
-num = [i  if i>2 else 0 for i in range(5) ]
-print(num)
+# num = [i  if i>2 else 0 for i in range(5) ]
+# print(num)
 
+num = [i 
+       if i>2 or i==1 else 0 
+       for i in range(5) ]
+print(num)
 
 
 
